@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    max-width: 700px;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+}
+
+.container {
+}
+
+h2, h5 {
+    font-family: 'Arial Narrow Bold', sans-serif;  
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+
+.header-title, .content-title {
+    color: black;
+}
+
+header {
+    display: flexbox;
+}
+
+.header-nav {
+    font-family: Arial;
+    display: flex;
+    gap: 20px;
+}
+
+.content {
+    padding-top: 2rem;
+}
+
+.content-author {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(146, 146, 146);
+}
+
+.content-paras {
+    line-height: 1.6;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.05rem;
+    color: rgb(66, 65, 65);
+}
+em {
+    font-style: italic;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+hr {
+    color: hsla(0, 0%, 72%, 0.5);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(125, 153, 175);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 1.4;
+}
+
+.posts-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    font-size: smaller;
+    color: rgb(125, 153, 175);
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
