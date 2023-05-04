@@ -1,17 +1,25 @@
+html {
+    margin: auto;
+    max-width: fit-content;
+}
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 4rem;
-    margin-right: 4rem;
     max-width: 700px;
     font-family: 'IBM Plex Sans', Helvetica, sans-serif;
 }
 
 .container {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    max-width: 700px;
+    font-family: 'IBM Plex Sans', Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
 h2, h5 {
